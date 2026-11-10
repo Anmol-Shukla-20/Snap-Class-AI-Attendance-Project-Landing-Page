@@ -9,3 +9,11 @@ SnapClass is a responsive promotional website for an AI-powered classroom attend
 - Teacher and student workflow sections
 - Technology overview and product screenshots
 - Responsive styling and scroll-reveal effects
+
+## Technology
+
+- Python and Flask serve the page.
+- HTML templates are in `templates/`.
+- CSS, JavaScript, fonts, logos, and screenshots are in `static/`.
+- `requirements.txt` lists the Python dependencies.
+- `vercel.json` configures deployment as a Vercel Python application.
