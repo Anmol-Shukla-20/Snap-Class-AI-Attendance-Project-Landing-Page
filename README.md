@@ -17,3 +17,7 @@ SnapClass is a responsive promotional website for an AI-powered classroom attend
 - CSS, JavaScript, fonts, logos, and screenshots are in `static/`.
 - `requirements.txt` lists the Python dependencies.
 - `vercel.json` configures deployment as a Vercel Python application.
+
+  ## Run locally
+
+You need Python installed. From the project root, create and activate a virtual environment, install dependencies, and start the Flask server.
