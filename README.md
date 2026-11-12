@@ -21,3 +21,14 @@ SnapClass is a responsive promotional website for an AI-powered classroom attend
   ## Run locally
 
 You need Python installed. From the project root, create and activate a virtual environment, install dependencies, and start the Flask server.
+
+## Windows PowerShell
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python app.py
+```
+
+If PowerShell blocks virtual-environment activation, run this in the same terminal and activate again:
