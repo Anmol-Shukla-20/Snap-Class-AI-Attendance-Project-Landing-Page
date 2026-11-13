@@ -32,3 +32,10 @@ python app.py
 ```
 
 If PowerShell blocks virtual-environment activation, run this in the same terminal and activate again:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+```
+
+Open [http://127.0.0.1:5002](http://127.0.0.1:5002) in your browser. Stop the server with **Ctrl+C**.
