@@ -39,3 +39,14 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
 Open [http://127.0.0.1:5002](http://127.0.0.1:5002) in your browser. Stop the server with **Ctrl+C**.
+
+### macOS or Linux
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python app.py
+```
+
+Then open [http://127.0.0.1:5002](http://127.0.0.1:5002).
