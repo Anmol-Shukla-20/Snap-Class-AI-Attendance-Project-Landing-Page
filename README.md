@@ -50,3 +50,12 @@ python app.py
 ```
 
 Then open [http://127.0.0.1:5002](http://127.0.0.1:5002).
+
+## Deploy to Vercel
+
+1. Push this repository to GitHub.
+2. In Vercel, choose **Add New → Project** and import the GitHub repository.
+3. Use the repository root (`./`) as the Root Directory.
+4. Vercel can detect the Flask application. If asked to choose a framework, select **Flask** (or **Other** if Flask is not offered).
+5. Leave build and output directory overrides empty; `vercel.json` defines the Python app and route.
+6. Deploy. Subsequent pushes to the connected branch trigger new deployments.
