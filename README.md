@@ -59,3 +59,19 @@ Then open [http://127.0.0.1:5002](http://127.0.0.1:5002).
 4. Vercel can detect the Flask application. If asked to choose a framework, select **Flask** (or **Other** if Flask is not offered).
 5. Leave build and output directory overrides empty; `vercel.json` defines the Python app and route.
 6. Deploy. Subsequent pushes to the connected branch trigger new deployments.
+
+## Project structure
+
+```text
+.
+├── app.py
+├── requirements.txt
+├── vercel.json
+├── templates/
+│   └── index.html
+└── static/
+    ├── css/
+    ├── fonts/
+    ├── img/
+    └── js/
+```
