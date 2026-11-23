@@ -18,7 +18,7 @@ DEI SnapClass is a responsive promotional website for an AI-powered classroom at
 - `requirements.txt` lists the Python dependencies.
 - `vercel.json` configures deployment as a Vercel Python application.
 
-  ## Run locally
+## Run locally
 
 You need Python installed. From the project root, create and activate a virtual environment, install dependencies, and start the Flask server.
 
